@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">smarthome</string>
+    <string name="denglu">登陆</string>
+    <string name="mm">密码</string>
+    <string name="chongzhi">重置</string>
+    <string name="name">name</string>
+    <string name="yhm">用户名</string>
+    <string name="user"> </string>
+    <string name="password"> </string>
+    <string name="title">智能家居</string>
+    <string name="fan">FAN</string>
+    <string name="light">Light</string>
+    <string name="music">MUSIC</string>
+    <string name="tv">TV</string>
+    <string name="ac">AC</string>
+    <string name="sh"> </string>
+    <string name="acc"> </string>
+    <string name="glight">glight</string>
+    <string name="gtv">gtv</string>
+    <string name="gfan">gfan</string>
+    <string name="gmusic">gmusic</string>
+    <string name="off1">OFF</string>
+    <string name="off2">OFF</string>
+    <string name="off3">OFF</string>
+    <string name="off4">OFF</string>
+    <string name="on1">ON</string>
+    <string name="on2">ON</string>
+    <string name="on3">ON</string>
+    <string name="on4">ON</string>
+    <string name="status1"> </string>
+    <string name="status2"> </string>
+    <string name="status3"> </string>
+    <string name="status4"> </string>
+    <string name="status5"> </string>
+    <string name="confirm">确认修改</string>
+    <string name="exit">退出</string>
+    <string name="reset">刷新</string>
+    <string name="status">状态</string>
+    <string name="cb_remember">记住用户名和密码</string>
+
+</resources>
