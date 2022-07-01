@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                     public void run() {
                         try {
                             Class.forName("com.mysql.jdbc.Driver");
-                            Connection cn= DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","ou302775954");
+                            Connection cn= DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","XXX");
                             String sql="update furniture set MUSIC='"+musics1+"' ,TV='"+tvs1+"',LIGHT='"+lights1+"',FAN='"+fans1+"',AC='"+acc1+"'";
                             Statement st=(Statement)cn.createStatement();
                             st.executeUpdate(sql);
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                         try{
 
                             Class.forName("com.mysql.jdbc.Driver");
-                            Connection cn= DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","ou302775954");
+                            Connection cn= DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","XX");
                             Statement st=(Statement)cn.createStatement();
                             String sql="select * from furniture";
                             ResultSet rs=st.executeQuery(sql);
