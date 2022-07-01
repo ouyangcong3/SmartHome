@@ -15,7 +15,7 @@ public class DBUtil {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","ou302775954");
+            con = DriverManager.getConnection("jdbc:mysql://101.201.234.9:3306/smarthome?useUnicode=true&characterEncoding=UTF-8","root","XX");
         } catch (Exception var2) {
             var2.printStackTrace();
         }
